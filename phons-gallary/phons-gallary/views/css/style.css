@@ -126,3 +126,23 @@
 .sidmenuPadding{
     padding-top: 6%;
 }
+
+.thumbnailHeight {
+    height: 402px;
+}
+
+.selectDdl {
+    border-radius: 4px;
+    width: 7%;
+}
+.searchBtn{
+    margin-top: 4%;
+    height: 29px;
+}
+.typeSearch {
+    margin-left: 22px;
+}
+.priceInpots {
+    width: 134px;
+    height: 31px;
+}

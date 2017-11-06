@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -121,7 +122,7 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
-    <Content Include="data\phones.json" />
+    <Content Include="views\data\phones.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -910,8 +911,6 @@
     <Content Include="views\js\app.js" />
     <Content Include="scripts\bootstrap.min.js" />
     <Content Include="scripts\jquery.min.js" />
-    <Content Include="views\phoneGallary-component\phoneGallary-component.html" />
-    <Content Include="views\phoneGallary-component\phoneGallary-component.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
